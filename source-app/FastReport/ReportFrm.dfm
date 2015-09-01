@@ -158,17 +158,15 @@ object frmFastReport: TfrmFastReport
   end
   object frxReport1: TfrxReport
     Version = '3.22'
-    DotMatrixReport = False
+    DotMatrixReport = True
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
-    PreviewOptions.OutlineVisible = True
     PreviewOptions.Zoom = 1.000000000000000000
     PrintOptions.Printer = 'Default'
-    ReportOptions.CreateDate = 40217.506316007000000000
-    ReportOptions.LastChange = 40217.507302152800000000
+    ReportOptions.CreateDate = 42249.129624895800000000
+    ReportOptions.LastChange = 42249.161104594900000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
-      ''
       'begin'
       ''
       'end.')
@@ -178,66 +176,58 @@ object frmFastReport: TfrmFastReport
     Top = 48
     Datasets = <
       item
+        DataSet = frxReport1.ADOQuery1
         DataSetName = 'ADOQuery1'
       end>
     Variables = <>
     Style = <>
-    object Page1: TfrxReportPage
-      PaperWidth = 210.000000000000000000
-      PaperHeight = 297.000000000000000000
-      PaperSize = 9
-      LeftMargin = 10.000000000000000000
-      RightMargin = 10.000000000000000000
-      TopMargin = 10.000000000000000000
-      BottomMargin = 10.000000000000000000
-      object ReportTitle1: TfrxReportTitle
-        Height = 22.677180000000000000
-        Top = 18.897650000000000000
-        Width = 718.110700000000000000
+    object Page1: TfrxDMPPage
+      PaperWidth = 215.899860564673400000
+      PaperHeight = 278.870653229369800000
+      PaperSize = 1
+      LeftMargin = 2.539998359584390000
+      RightMargin = 2.539998359584390000
+      TopMargin = 4.497913761764030000
+      BottomMargin = 4.497913761764030000
+      FontStyle = []
+      object ADOQuery1: TfrxADOQuery
+        UserName = 'ADOQuery1'
+        CloseDataSource = True
+        Params = <>
+        SQL.Strings = (
+          'select * from csvtest1.csv')
+        CommandTimeout = 30
+        Parameters = <>
       end
-      object MasterData1: TfrxMasterData
-        Height = 22.677180000000000000
-        Top = 102.047310000000000000
-        Width = 718.110700000000000000
+      object MasterData2: TfrxMasterData
+        Height = 17.000000000000000000
+        Top = 17.000000000000000000
+        Width = 796.800000000000000000
+        DataSet = frxReport1.ADOQuery1
+        DataSetName = 'ADOQuery1'
         RowCount = 0
-        object Memo2: TfrxMemoView
-          Left = 3.779530000000000000
-          Width = 60.472480000000000000
-          Height = 18.897650000000000000
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
+        object DMPMemo3: TfrxDMPMemoView
+          Width = 182.400000000000000000
+          Height = 17.000000000000000000
+          DataField = 'col1'
+          DataSet = frxReport1.ADOQuery1
+          DataSetName = 'ADOQuery1'
+          FontStyle = []
           Memo.UTF8 = (
-            '[ADOQuery1."UnitKd"]')
+            '[ADOQuery1."col1"]')
           ParentFont = False
         end
-        object Memo3: TfrxMemoView
-          Left = 75.590600000000000000
-          Width = 634.961040000000000000
-          Height = 18.897650000000000000
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
+        object DMPMemo1: TfrxDMPMemoView
+          Left = 182.400000000000000000
+          Width = 182.400000000000000000
+          Height = 17.000000000000000000
+          DataField = 'col1'
+          DataSet = frxReport1.ADOQuery1
+          DataSetName = 'ADOQuery1'
+          FontStyle = []
           Memo.UTF8 = (
-            '[ADOQuery1."UnitNm"]')
+            '[ADOQuery1."col1"]')
           ParentFont = False
-        end
-      end
-      object PageFooter1: TfrxPageFooter
-        Height = 22.677180000000000000
-        Top = 185.196970000000000000
-        Width = 718.110700000000000000
-        object Memo1: TfrxMemoView
-          Left = 642.520100000000000000
-          Width = 75.590600000000000000
-          Height = 18.897650000000000000
-          HAlign = haRight
-          Memo.UTF8 = (
-            '[Page#]')
         end
       end
     end
@@ -2289,8 +2279,9 @@ object frmFastReport: TfrmFastReport
     Top = 256
   end
   object frxADOComponents1: TfrxADOComponents
-    Left = 696
-    Top = 96
+    DefaultDatabase = con1
+    Left = 544
+    Top = 88
   end
   object XMLDocument1: TXMLDocument
     Left = 648
@@ -2343,5 +2334,19 @@ object frmFastReport: TfrmFastReport
   object OpenDialog1: TOpenDialog
     Left = 336
     Top = 17
+  end
+  object con1: TADOConnection
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\AAGUSTI\aagusti\r' +
+      'eportwatch\bin\fr3\;HDR=Yes;FMT=Delimited'#39';'
+    LoginPrompt = False
+    Mode = cmRead
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 536
+    Top = 24
+  end
+  object DataSource1: TDataSource
+    Left = 555
+    Top = 216
   end
 end

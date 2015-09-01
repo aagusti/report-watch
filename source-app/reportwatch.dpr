@@ -3,8 +3,8 @@ program reportwatch;
 uses
   Forms,
   ReportFrm in 'FastReport\ReportFrm.pas' {frmFastReport},
-  DirWatch in '..\..\..\master\delphi\DirWatch.pas',
-  prtmodule in '..\..\test_report\source\prtmodule.pas';
+  DirWatch in 'FastReport\DirWatch.pas',
+  prtmodule in 'FastReport\prtmodule.pas';
 
 {$R *.res}
 

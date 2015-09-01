@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="42249,1296248958" ReportOptions.Description.Text="" ReportOptions.LastChange="42249,1757549769" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403900203546F70023008446174617365747301010C2C00000020446174615365743D2241444F5175657279312220446174615365744E616D653D2241444F517565727931220000095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" PaperWidth="215,899860564673" PaperHeight="278,87065322937" PaperSize="1" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxADOQuery Name="ADOQuery1" UserName="ADOQuery1" CloseDataSource="True" FieldAliases.Text="" SQL.Text="select * from csvtes1.csv" CommandTimeout="30" PropData="0A506172616D65746572730100"/>
+    <TfrxMasterData Name="MasterData2" Height="17" Left="0" Top="17" Width="796,8" ColumnWidth="0" ColumnGap="0" DataSet="ADOQuery1" DataSetName="ADOQuery1" RowCount="0">
+      <TfrxDMPMemoView Name="DMPMemo3" Left="0" Top="0" Width="182,4" Height="17" DataField="col1" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;col1&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo1" Left="182,4" Top="0" Width="182,4" Height="17" DataField="col1" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;col1&#34;]"/>
+    </TfrxMasterData>
+  </TfrxDMPPage>
+</TfrxReport>

@@ -81,7 +81,6 @@ type
     ambah1: TMenuItem;
     Edit1: TMenuItem;
     Hapus1: TMenuItem;
-    frxReport1: TfrxReport;
     StatusBar1: TStatusBar;
     MainMenu1: TMainMenu;
     File1: TMenuItem;
@@ -100,6 +99,9 @@ type
     BitBtn1: TBitBtn;
     cboKertas: TComboBox;
     Label1: TLabel;
+    con1: TADOConnection;
+    DataSource1: TDataSource;
+    frxReport1: TfrxReport;
     procedure Exit1Click(Sender: TObject);
     procedure frxReport1Preview(Sender: TObject);
     procedure btnTestClick(Sender: TObject);
@@ -123,6 +125,7 @@ type
    inifile:tinifile;
    procedure get_paper;
    procedure getfilelist;
+   procedure print(wpath,filenm:string);
   public
     { Public declarations }
     //RptPath:string;
@@ -135,6 +138,42 @@ implementation
 
 
 {$R *.DFM}
+
+procedure TfrmFastReport.print(wpath,filenm:string);
+var filename:String;
+begin
+        memo1.Lines.Add(afilename);
+        if UpperCase(extractFileExt(filenm))='.CSV' then
+        begin
+          con1.Close;
+          con1.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;'+
+                                 'Data Source='+wpath+';' +
+                                 'Extended Properties=''text;HDR=Yes;FMT=Delimited''';
+          //qry1.SQL.Text:='select * from '+filenm;
+          con1.Open;
+          //qry1.Open;
+          filename := apppath+'\fr3\'+ ChangeFileExt(filenm, '')+'.fr3';
+          frxreport1.LoadFromFile(filename);
+        end
+        else
+        begin
+          frxreport1.LoadFromFile(apppath+'\fr3\'+cboKertas.Items[cboKertas.ItemIndex]);
+        end;
+        
+        if chkAutoPrint.Checked then
+        begin
+          frxReport1.PrepareReport(True);
+          frxReport1.PrintOptions.ShowDialog := False;
+          frxReport1.Print;
+        end
+        else
+        begin
+          //Application.BringToFront;
+          BringToFront;
+          //frmFastReport.BringToFront;
+          frxReport1.ShowReport;
+        end;
+end;
 
 procedure TfrmFastReport.getfilelist;
 var
@@ -151,22 +190,17 @@ begin
       Memo1.Lines.Clear;
       repeat
         afilename := WatchPath+SR.Name;
-        memo1.Lines.Add(afilename);
+        print(WatchPath,SR.Name);
+      until FindNext(SR) <> 0;
+      FindClose(SR);
+    end;
+    
+    if FindFirst(WatchPath + '*.csv', faArchive, SR) = 0 then
+    begin
+      Memo1.Lines.Clear;
+      repeat
         afilename := WatchPath+SR.Name;
-            frxreport1.LoadFromFile(apppath+'\fr3\'+cboKertas.Items[cboKertas.ItemIndex]);
-        if chkAutoPrint.Checked then
-        begin
-          frxReport1.PrepareReport(True);
-          frxReport1.PrintOptions.ShowDialog := False;
-          frxReport1.Print;
-        end
-        else
-        begin
-          //Application.BringToFront;
-          BringToFront;
-          //frmFastReport.BringToFront;
-          frxReport1.ShowReport;
-        end;
+        print(WatchPath,SR.Name);
       until FindNext(SR) <> 0;
       FindClose(SR);
     end;
@@ -225,26 +259,13 @@ begin
     end;
     testing:=True;
     afilename := opendialog1.FileName;
-
-    frxreport1.LoadFromFile(apppath+'\fr3\'+cboKertas.Items[cboKertas.ItemIndex]);
-    if chkAutoPrint.Checked then
-    begin
-      frxReport1.PrepareReport(True);
-      frxReport1.PrintOptions.ShowDialog := False;
-      frxReport1.Print;
-    end
-    else
-    begin
-      frxReport1.PrepareReport(True);
-      frxReport1.ShowReport;
-      //frmFastReport.BringToFront;
-    end;
+    print(extractFilePath(afilename),extractfilename(afilename));
   end;
 end;
 
 procedure TfrmFastReport.btnDesignClick(Sender: TObject);
 begin
-   frxreport1.LoadFromFile(apppath+'\fr3\'+cboKertas.Items[cboKertas.ItemIndex]);
+   //frxreport1.LoadFromFile(apppath+'\fr3\'+cboKertas.Items[cboKertas.ItemIndex]);
    frxReport1.DesignReport;
    get_paper;
 end;
