@@ -1,15 +1,71 @@
 object frmFastReport: TfrmFastReport
-  Left = 269
-  Top = 119
+  Left = 285
+  Top = 93
   Width = 800
   Height = 556
-  Caption = 'Report(s)'
+  Caption = 'Dot Matrix Report Watcher v.1.06 - OpenSIPKD.com'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Icon.Data = {
+    0000010001001818000001000800C80600001600000028000000180000003000
+    00000100080000000000A002000000000000000000000001000000000000D0D0
+    D200ECDFD100C99C5E00D7BD9100EDE1D500ECE3D600FDF9F100EFE8DB00F5ED
+    E400DFCAAD00F8F3EA00E0CBAE00F5EFE400D0B48900E7DACA00F2E9DE00EFE4
+    D800BC6B1000837D8400C3C0BF00D8A859009C969600DED0B800E1CCB1009F99
+    9900EFEEED00E8BB5A00F0E9DE00CBB89200DEB16400D6C5AF00CDCCC900EFC9
+    7100C58A4B00D2B68B00CAC8C600E2E8EF0099929200B99D6B00B1ADAE00D1CF
+    CE00BA7B3E00EEC67000E1A94200E3D3B600D7C39B00C4AB7F00F8FCFF00E3D8
+    C600E0AC5400E6E8E900A09A990069636A00EEE4DA00D2D2D300F9E19600F4EB
+    E200EEE1D500F3D48500FFFBF400F7F1E800F8DF9300DCA85200D7A55C00D3D2
+    D100A49FA100FDFDFD00E9E8E800E3E8ED00E6B85900C9924B00D9C09400F7EF
+    E800E8C07000F1E6DC00DACAAE00E9DDCE00BA9D6D00E5DAC900D0BD9800C6A8
+    7400E1D6BE00D5C4A400958F8F00EEF2F500C6C4C300FCFFFF00B0AFB400E2CD
+    B300D0D1D300CD975300CA9E6000EDC97700C7C5C300FAF5ED00E1A63C00E2D6
+    C100B1854900F4F8FC00EEE5D8006E9BE300EBE6DD00E5E3E200CFCCCA00ABA8
+    A8009D999900CAC2C400B8B5B500D2D0D0008AC3E900F8F8F800004BFB00D4D1
+    D000CDC8C900F8F9F900BCB9BA00B2AEAF00D8D5D8009C999800CAC2C200DEDC
+    DB00E3DFDF00E1E2E400C9C7C600DDDBDB00B7B3B300D4D0CE00CECCCA00E9E2
+    D900E3E2E200CECBCC00CAC3C500F4F3F200BACAD700DCD8DB00F4F4F300BFBB
+    BC00D5D3D200B2ADB000D2D0CF00D0CBC500E7E5E300CDC9C500DFDFDF00DED8
+    D600AAA7A700DCD7D000E9BF6800E1A84200E2E7EE00EEC77100E6B75900BB6A
+    0F00D9D7D700FFFFFF00FFFFFF00000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000009C9C
+    9C9C9C9C5163050505050505050563519C9C9C9C9C9C9C9C9C9C9C9C2C3C0C0C
+    0C0C0C0C0C0C3C2C9C9C9C9C9C9C5318151533342D350404040404040404352D
+    343315151825535513135D1250580B0B0B0B0B0B0B0B5850125D13135525767F
+    23231F124D220D0D0D0D0D0D0D0D224D121F8E8C6769418928288B4036590000
+    0000000000005936407E85649241917C99999999999999999999999999999999
+    99906D6F80688A818F7A442495959595959595959595959524448D6566747D43
+    321E111198989898989898989898989811111E32436B731954295F2B94949494
+    94949494949494942B5F29541988778762211A45979797979797979797979797
+    451A2162847B71722F5A202A9696969696969696969696962A205A2F6E826C42
+    563F3A5C9393939393939393939393935C3A3F564270759A9A1D3D3E615B0202
+    0202020202025B613E3D1D9A9A86789A9A493731264703030303030303034726
+    3137499A9A798327571414462E170909090909090909172E46141457276A9C9C
+    9C9C9C9C1C4C0E0E0E0E0E0E0E0E4C1C9C9C9C9C9C9C9C9C9C9C9C9C4F390101
+    010101010101394F9C9C9C9C9C9C9C9C9C9C9C9C524A10101010101010104A52
+    9C9C9C9C9C9C9C9C9C9C9C9C4B380F0F0F0F0F0F0F0F384B9C9C9C9C9C9C9C9C
+    9C9C9C9C1648080808080808080848169C9C9C9C9C9C9C9C9C9C9C9C605E0A0A
+    0A0A0A0A0A0A5E609C9C9C9C9C9C9C9C9C9C9C9C4E3B06060606060606063B4E
+    9C9C9C9C9C9C9C9C9C9C9C9C301B07070707070707071B309C9C9C9C9C9CFC00
+    3F00FC003F000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000000000FC00
+    3F00FC003F00FC003F00FC003F00FC003F00FC003F00FC003F00FC003F00}
   Menu = MainMenu1
   OldCreateOrder = False
   Position = poScreenCenter
@@ -28,38 +84,39 @@ object frmFastReport: TfrmFastReport
     AutoSize = False
   end
   object Splitter1: TSplitter
-    Left = 248
+    Left = 241
     Top = 0
-    Height = 486
+    Width = 2
+    Height = 479
   end
   object Panel3: TPanel
-    Left = 251
+    Left = 243
     Top = 0
     Width = 541
-    Height = 486
+    Height = 479
     Align = alClient
     TabOrder = 1
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 248
-    Height = 486
+    Width = 241
+    Height = 479
     Align = alLeft
     TabOrder = 0
     object Memo1: TMemo
       Left = 1
-      Top = 144
-      Width = 246
-      Height = 341
+      Top = 161
+      Width = 239
+      Height = 317
       Align = alClient
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
-      Font.Height = -13
+      Font.Height = -11
       Font.Name = 'Courier New'
       Font.Style = []
       Lines.Strings = (
-        '--LOG--')
+        '-- LOG --')
       ParentFont = False
       ReadOnly = True
       ScrollBars = ssVertical
@@ -68,29 +125,43 @@ object frmFastReport: TfrmFastReport
     object Panel2: TPanel
       Left = 1
       Top = 1
-      Width = 246
-      Height = 143
+      Width = 239
+      Height = 160
       Align = alTop
       TabOrder = 1
       object Label1: TLabel
         Left = 8
         Top = 88
-        Width = 31
+        Width = 37
         Height = 13
         Caption = 'Label1'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Transparent = True
+      end
+      object Label2: TLabel
+        Left = 8
+        Top = 112
+        Width = 69
+        Height = 13
+        Caption = 'Paper Format:'
       end
       object btnStart: TBitBtn
         Left = 8
         Top = 5
-        Width = 75
+        Width = 99
         Height = 25
         Caption = 'Start'
         TabOrder = 0
         OnClick = btnStartClick
       end
       object btnStop: TBitBtn
-        Left = 85
-        Top = 5
+        Left = 8
+        Top = 29
         Width = 99
         Height = 25
         Caption = 'Stop'
@@ -98,55 +169,56 @@ object frmFastReport: TfrmFastReport
         OnClick = btnStopClick
       end
       object btnTest: TBitBtn
-        Left = 85
-        Top = 30
+        Left = 128
+        Top = 6
         Width = 99
         Height = 25
-        Caption = 'Open Test File'
-        TabOrder = 2
+        Caption = 'Open Text File'
+        TabOrder = 3
         OnClick = btnTestClick
       end
       object btnDesign: TBitBtn
-        Left = 8
-        Top = 31
-        Width = 75
+        Left = 128
+        Top = 30
+        Width = 99
         Height = 25
         Caption = 'Design'
-        TabOrder = 3
+        TabOrder = 4
         OnClick = btnDesignClick
       end
       object chkAutoPrint: TCheckBox
-        Left = 121
-        Top = 62
+        Left = 129
+        Top = 63
         Width = 97
         Height = 17
-        Caption = 'AutoPrint'
-        TabOrder = 4
+        Caption = 'Auto Print'
+        TabOrder = 5
       end
       object BitBtn1: TBitBtn
         Left = 8
         Top = 57
-        Width = 75
+        Width = 99
         Height = 25
         Caption = 'Monitor'
-        TabOrder = 5
+        TabOrder = 2
         OnClick = BitBtn1Click
       end
       object cboKertas: TComboBox
         Left = 8
-        Top = 112
-        Width = 233
+        Top = 128
+        Width = 225
         Height = 21
         Style = csDropDownList
         ItemHeight = 13
         TabOrder = 6
+        OnChange = cboKertasChange
       end
     end
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 486
-    Width = 792
+    Top = 479
+    Width = 784
     Height = 19
     Panels = <
       item
@@ -172,8 +244,9 @@ object frmFastReport: TfrmFastReport
       'end.')
     OnGetValue = frxReport1GetValue
     OnPreview = frxReport1Preview
-    Left = 656
-    Top = 48
+    OnAfterPrintReport = frxReport1AfterPrintReport
+    Left = 597
+    Top = 359
     Datasets = <
       item
         DataSet = frxReport1.ADOQuery1
@@ -247,24 +320,24 @@ object frmFastReport: TfrmFastReport
     DefaultOrientation = poPortrait
     Restrictions = []
     RTLLanguage = False
-    Left = 740
-    Top = 48
+    Left = 453
+    Top = 311
   end
   object frxBarCodeObject1: TfrxBarCodeObject
-    Left = 228
-    Top = 208
+    Left = 597
+    Top = 263
   end
   object frxRichObject1: TfrxRichObject
-    Left = 228
-    Top = 176
+    Left = 645
+    Top = 359
   end
   object frxDialogControls1: TfrxDialogControls
-    Left = 292
-    Top = 176
+    Left = 501
+    Top = 311
   end
   object ImageList1: TImageList
-    Left = 324
-    Top = 144
+    Left = 597
+    Top = 407
     Bitmap = {
       494C010102000400040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
@@ -406,22 +479,24 @@ object frmFastReport: TfrmFastReport
       000000000000}
   end
   object frxOLEObject1: TfrxOLEObject
-    Left = 324
-    Top = 176
+    Left = 501
+    Top = 359
   end
   object frxCrossObject1: TfrxCrossObject
-    Left = 292
-    Top = 208
+    Left = 741
+    Top = 263
   end
   object frxDotMatrixExport1: TfrxDotMatrixExport
     UseFileCache = True
     ShowProgress = True
     EscModel = 0
     GraphicFrames = False
+    OEMConvert = False
+    PageBreaks = False
     SaveToFile = False
     UseIniSettings = True
-    Left = 324
-    Top = 208
+    Left = 549
+    Top = 311
   end
   object frxPDFExport1: TfrxPDFExport
     UseFileCache = True
@@ -433,8 +508,8 @@ object frmFastReport: TfrmFastReport
     Background = False
     Creator = 'FastReport (http://www.fast-report.com)'
     HTMLTags = True
-    Left = 368
-    Top = 248
+    Left = 549
+    Top = 359
   end
   object frxHTMLExport1: TfrxHTMLExport
     UseFileCache = True
@@ -442,8 +517,8 @@ object frmFastReport: TfrmFastReport
     FixedWidth = True
     Background = False
     Centered = False
-    Left = 272
-    Top = 248
+    Left = 741
+    Top = 311
   end
   object frxRTFExport1: TfrxRTFExport
     UseFileCache = True
@@ -451,8 +526,8 @@ object frmFastReport: TfrmFastReport
     Wysiwyg = True
     Creator = 'FastReport http://www.fast-report.com'
     SuppressPageHeadersFooters = False
-    Left = 168
-    Top = 208
+    Left = 693
+    Top = 359
   end
   object frxXLSExport1: TfrxXLSExport
     UseFileCache = True
@@ -463,8 +538,8 @@ object frmFastReport: TfrmFastReport
     PageBreaks = True
     EmptyLines = True
     SuppressPageHeadersFooters = False
-    Left = 304
-    Top = 248
+    Left = 501
+    Top = 407
   end
   object frxXMLExport1: TfrxXMLExport
     UseFileCache = True
@@ -473,34 +548,34 @@ object frmFastReport: TfrmFastReport
     Creator = 'FastReport'
     EmptyLines = True
     SuppressPageHeadersFooters = False
-    Left = 336
-    Top = 248
+    Left = 549
+    Top = 407
   end
   object frxBMPExport1: TfrxBMPExport
     UseFileCache = True
     ShowProgress = True
-    Left = 112
-    Top = 248
+    Left = 645
+    Top = 263
   end
   object frxJPEGExport1: TfrxJPEGExport
     UseFileCache = True
     ShowProgress = True
-    Left = 144
-    Top = 248
+    Left = 405
+    Top = 359
   end
   object frxTIFFExport1: TfrxTIFFExport
     UseFileCache = True
     ShowProgress = True
-    Left = 176
-    Top = 248
+    Left = 405
+    Top = 407
   end
   object frxGZipCompressor1: TfrxGZipCompressor
-    Left = 212
-    Top = 288
+    Left = 645
+    Top = 311
   end
   object frxCheckBoxObject1: TfrxCheckBoxObject
-    Left = 356
-    Top = 176
+    Left = 693
+    Top = 263
   end
   object frxMailExport1: TfrxMailExport
     UseFileCache = True
@@ -508,22 +583,22 @@ object frmFastReport: TfrmFastReport
     ShowExportDialog = True
     SmtpPort = 25
     UseIniFile = True
-    Left = 176
-    Top = 284
+    Left = 453
+    Top = 359
   end
   object frxCSVExport1: TfrxCSVExport
     UseFileCache = True
     ShowProgress = True
     Separator = ';'
     OEMCodepage = False
-    Left = 112
-    Top = 284
+    Left = 405
+    Top = 311
   end
   object frxGIFExport1: TfrxGIFExport
     UseFileCache = True
     ShowProgress = True
-    Left = 144
-    Top = 284
+    Left = 597
+    Top = 311
   end
   object frxSimpleTextExport1: TfrxSimpleTextExport
     UseFileCache = True
@@ -531,12 +606,12 @@ object frmFastReport: TfrmFastReport
     Frames = False
     EmptyLines = False
     OEMCodepage = False
-    Left = 240
-    Top = 248
+    Left = 741
+    Top = 359
   end
   object ImageList2: TImageList
-    Left = 456
-    Top = 90
+    Left = 741
+    Top = 407
     Bitmap = {
       494C010106000900040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000003000000001002000000000000030
@@ -942,8 +1017,8 @@ object frmFastReport: TfrmFastReport
       000000000000}
   end
   object imgButtons: TImageList
-    Left = 424
-    Top = 88
+    Left = 693
+    Top = 407
     Bitmap = {
       494C010115001800040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000006000000001002000000000000060
@@ -1745,8 +1820,8 @@ object frmFastReport: TfrmFastReport
       000000000000}
   end
   object ilDaftarTV: TImageList
-    Left = 456
-    Top = 120
+    Left = 645
+    Top = 407
     Bitmap = {
       494C010105000900040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000003000000001002000000000000030
@@ -2152,8 +2227,8 @@ object frmFastReport: TfrmFastReport
       000000000000}
   end
   object pmnuExport: TPopupMenu
-    Left = 824
-    Top = 104
+    Left = 501
+    Top = 455
     object mnEksTXT: TMenuItem
       Tag = 1
       Caption = 'Eksport ke TXT'
@@ -2188,8 +2263,8 @@ object frmFastReport: TfrmFastReport
     end
   end
   object pmnuZoom: TPopupMenu
-    Left = 824
-    Top = 72
+    Left = 549
+    Top = 455
     object N251: TMenuItem
       Tag = 25
       AutoCheck = True
@@ -2266,8 +2341,8 @@ object frmFastReport: TfrmFastReport
     PrintAfter = False
     PrinterDialog = True
     UseSavedProps = True
-    Left = 456
-    Top = 256
+    Left = 453
+    Top = 407
   end
   object frxHTMLExport2: TfrxHTMLExport
     UseFileCache = True
@@ -2275,23 +2350,23 @@ object frmFastReport: TfrmFastReport
     FixedWidth = True
     Background = False
     Centered = False
-    Left = 536
-    Top = 256
+    Left = 693
+    Top = 311
   end
   object frxADOComponents1: TfrxADOComponents
     DefaultDatabase = con1
-    Left = 544
-    Top = 88
+    Left = 549
+    Top = 263
   end
   object XMLDocument1: TXMLDocument
-    Left = 648
-    Top = 192
+    Left = 645
+    Top = 455
     DOMVendorDesc = 'MSXML'
   end
   object PopupMenu1: TPopupMenu
     AutoPopup = False
-    Left = 632
-    Top = 256
+    Left = 597
+    Top = 455
     object ambah1: TMenuItem
       Caption = 'Tambah'
     end
@@ -2303,17 +2378,21 @@ object frmFastReport: TfrmFastReport
     end
   end
   object MainMenu1: TMainMenu
-    Left = 448
-    Top = 208
+    Left = 405
+    Top = 455
     object File1: TMenuItem
       Caption = 'File'
-      object Logout1: TMenuItem
-        Caption = 'Logout'
+      object ReportTemplate1: TMenuItem
+        Caption = 'Report Template'
+        OnClick = ReportTemplate1Click
+      end
+      object About1: TMenuItem
+        Caption = 'About'
+        OnClick = About1Click
       end
       object DBConnection1: TMenuItem
         Tag = 1
-        Caption = 'DB Connection'
-        Visible = False
+        Caption = '-'
       end
       object Exit1: TMenuItem
         Tag = 2
@@ -2324,16 +2403,16 @@ object frmFastReport: TfrmFastReport
   end
   object DirectoryWatch1: TDirectoryWatch
     Directory = 'C:\'
-    NotifyFilters = [nfFilename, nfLastWrite]
+    NotifyFilters = [nfFilename]
     WatchSubDirs = False
     Active = False
     OnChange = DirectoryWatch1Change
-    Left = 240
-    Top = 9
+    Left = 501
+    Top = 263
   end
   object OpenDialog1: TOpenDialog
-    Left = 336
-    Top = 17
+    Left = 453
+    Top = 455
   end
   object con1: TADOConnection
     ConnectionString = 
@@ -2342,11 +2421,11 @@ object frmFastReport: TfrmFastReport
     LoginPrompt = False
     Mode = cmRead
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 536
-    Top = 24
+    Left = 405
+    Top = 263
   end
   object DataSource1: TDataSource
-    Left = 555
-    Top = 216
+    Left = 453
+    Top = 263
   end
 end

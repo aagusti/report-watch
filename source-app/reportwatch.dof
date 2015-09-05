@@ -131,20 +131,10 @@ ProductName=
 ProductVersion=1.0.0.0
 Comments=
 [Excluded Packages]
-C:\WINDOWS\SYSTEM32\frx7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fs7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxADO7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fsADO7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fsDB7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxDB7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxBDE7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fsBDE7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxDBX7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxe7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxIBX7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fsIBX7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\frxTee7.bpl=(untitled)
-C:\WINDOWS\SYSTEM32\fsTee7.bpl=(untitled)
-c:\delphi\Rxctl7.bpl=RX Library Component and Tools Package
-c:\delphi\RxBde7.bpl=RX Library BDE DB Component Package
-c:\delphi\rxdb7.bpl=RX Library DB Component Package
+C:\Program Files (x86)\IntraWeb\Delphi\LibD7\dclIntraweb_51_70.bpl=Intraweb 5.1 Design Package for Delphi 7
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlOutputDirectorry]
+Count=1
+Item0=..\bin

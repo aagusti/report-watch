@@ -10,6 +10,7 @@ uses
 
 begin
   Application.Initialize;
+  Application.Title := '';
   Application.CreateForm(TfrmFastReport, frmFastReport);
   Application.Run;
 end.
