@@ -316,6 +316,8 @@ procedure TfrmFastReport.btnDesignClick(Sender: TObject);
 begin
   frxReport1.DesignReport;
   get_paper;
+  if(afilename<>'') and FileExists(afilename) then
+    print(extractFilePath(afilename), extractfilename(afilename));
 end;
 
 procedure TfrmFastReport.FormCreate(Sender: TObject);
