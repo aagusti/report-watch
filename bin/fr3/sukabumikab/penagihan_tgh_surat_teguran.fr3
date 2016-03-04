@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Modal="False" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="42249.4734646296" ReportOptions.Description.Text="" ReportOptions.LastChange="42307.7144250694" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403550203546F7003670108446174617365747301010C2C00000020446174615365743D2241444F5175657279312220446174615365744E616D653D2241444F517565727931220000095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" PaperWidth="215.899860564673" PaperHeight="355.335187179358" PaperSize="5" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" LargeDesignHeight="True" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxADOQuery Name="ADOQuery1" UserName="ADOQuery1" CloseDataSource="True" FieldAliases.Text="" SQL.Text="select * from penagihan_tgh_surat_teguran.csv" CommandTimeout="30" PropData="0A506172616D65746572730100"/>
+    <TfrxPageFooter Name="PageFooter1" Height="17" Left="0" Top="1156" Width="796.8">
+      <TfrxDMPMemoView Name="DMPMemo4" Left="0" Top="0" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="."/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="136" Left="0" Top="17" Width="796.8"/>
+    <TfrxGroupHeader Name="GroupHeader1" Height="323" Left="0" Top="187" Width="796.8" Condition="ADOQuery1.&#34;cu_id&#34;" KeepTogether="True">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="0" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Nomor"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="0" Top="136" Width="787.2" Height="34" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Disampaikan dengan hormat, berdasarkan basis data pada kami saudara belum menyetorkan Pajak [ADOQuery1.&#34;usahanm&#34;] atas Objek Pajak:"/>
+      <TfrxDMPMemoView Name="DMPMemo42" Left="0" Top="17" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Sifat"/>
+      <TfrxDMPMemoView Name="DMPMemo43" Left="0" Top="34" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Lampiran"/>
+      <TfrxDMPMemoView Name="DMPMemo44" Left="0" Top="51" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Perihal"/>
+      <TfrxDMPMemoView Name="DMPMemo45" Left="76.8" Top="0" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo46" Left="76.8" Top="17" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo47" Left="76.8" Top="34" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo48" Left="76.8" Top="51" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo49" Left="96" Top="0" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text=""/>
+      <TfrxDMPMemoView Name="DMPMemo50" Left="96" Top="17" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="Segera"/>
+      <TfrxDMPMemoView Name="DMPMemo51" Left="96" Top="34" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="-"/>
+      <TfrxDMPMemoView Name="DMPMemo52" Left="96" Top="51" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="Teguran Penyetoran Pajak [ADOQuery1.&#34;usahanm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo53" Left="422.4" Top="0" Width="364.8" Height="51" FontStyle="0" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;Kepada Yth,&#13;&#10;Pengelola [ADOQuery1.&#34;usahanm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo55" Left="422.4" Top="51" Width="364.8" Height="17" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;customernm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo54" Left="422.4" Top="68" Width="364.8" Height="68" FontStyle="0" ParentFont="False" Text="di&#13;&#10;[ADOQuery1.&#34;alamat&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="0" Top="289" Width="48" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="No"/>
+      <TfrxDMPMemoView Name="DMPMemo18" Left="57.6" Top="289" Width="134.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="No. Bayar"/>
+      <TfrxDMPMemoView Name="DMPMemo19" Left="201.6" Top="289" Width="115.2" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Masa Pajak"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="326.4" Top="289" Width="153.6" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Pokok"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="489.6" Top="289" Width="134.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Denda (2%)"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="633.6" Top="289" Width="153.6" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Jumlah"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="19.2" Top="187" Width="768" Height="68" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Nama Objek Pajak : [ADOQuery1.&#34;opnm&#34;]&#13;&#10;NOPD             : [ADOQuery1.&#34;nopd&#34;]&#13;&#10;Alamat           : [ADOQuery1.&#34;opalamat&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="0" Top="255" Width="787.2" Height="17" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Dengan rincian pertanggal [ADOQuery1.&#34;tglcetak&#34;] sebagai berikut:"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="561" Left="0" Top="561" Width="796.8">
+      <TfrxDMPMemoView Name="DMPMemo13" Left="115.2" Top="442" Width="297.6" Height="17" FontStyle="0" ParentFont="False" WordWrap="False" Text="[ADOQuery1.&#34;customernm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="412.8" Top="442" Width="374.4" Height="102" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;Yang Menerima&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;(........................)"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="0" Top="391" Width="787.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="----------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="0" Top="408" Width="787.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="TANDA TERIMA"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="0" Top="442" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="NAMA"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="0" Top="459" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="ALAMAT"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="96" Top="459" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="96" Top="442" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="115.2" Top="459" Width="297.6" Height="85" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;alamat&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="422.4" Top="204" Width="364.8" Height="119" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="an. Plt. Kepala DPPKAD Kab. Sukabumi&#13;&#10;Kepala Bidang PAD Non PBB/BPHTB&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;TATANG PUJANTARA,SIP,MSi&#13;&#10;NIP. 19630615 199012 1 001"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="0" Top="323" Width="460.8" Height="51" FontStyle="0" ParentFont="False" Text="Tembusan :&#13;&#10;1. Yth. Bapak Bupati Sukabumi (sebagai laporan).&#13;&#10;2. Yth. Inspektur Kabupaten Sukabumi."/>
+      <TfrxDMPMemoView Name="DMPMemo29" Left="0" Top="34" Width="787.2" Height="187" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Dengan ini kami sampailkan TEGURAN untuk segera melakukan pembayaran ke Kas Umum Daerah Kabupaten Sukabumi melalui rekening Bank BJB atau ATM Bank BJB terdekat paling lambat 7 (tujuh) hari kerja sejak surat ini diterima/cap pos.&#13;&#10;&#13;&#10;Dalam hal sampai dengan jangka waktu sebagaimana dimaksud belum melaksanakan pembayaran maka akan dilakukan penagihan dan atau penegakan sanksi sesuai ketentuan yang berlaku.&#13;&#10;&#13;&#10;Demikian, atas kepatuhannya melaksanakan kewajiban perpajakan kami ucapkan terima kasih."/>
+      <TfrxDMPLineView Name="DMPLine1" Left="-4.8" Top="8.5" Width="796.8" Height="0"/>
+    </TfrxGroupFooter>
+    <TfrxMasterData Name="MasterData1" Height="17" Left="0" Top="527" Width="796.8" ColumnWidth="0" ColumnGap="0" DataSet="ADOQuery1" DataSetName="ADOQuery1" RowCount="0">
+      <TfrxDMPMemoView Name="DMPMemo2" Left="0" Top="0" Width="48" Height="17" FontStyle="0" Frame.Typ="3" HAlign="haCenter" ParentFont="False" Text="[Line]."/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="57.6" Top="0" Width="134.4" Height="17" FontStyle="0" Frame.Typ="3" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;bayarno&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="201.6" Top="0" Width="115.2" Height="17" FontStyle="0" Frame.Typ="3" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;masa_bulan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="326.4" Top="0" Width="153.6" Height="17" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.0n" DisplayFormat.Kind="fkNumeric" FontStyle="0" Frame.Typ="3" HAlign="haRight" ParentFont="False" Text="[strtofloat(&#60;ADOQuery1.&#34;pajak_terhutang&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="489.6" Top="0" Width="134.4" Height="17" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.0n" DisplayFormat.Kind="fkNumeric" FontStyle="0" Frame.Typ="3" HAlign="haCenter" ParentFont="False" Text="[strtofloat(&#60;ADOQuery1.&#34;bunga&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo26" Left="633.6" Top="0" Width="153.6" Height="17" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="%2.0n" DisplayFormat.Kind="fkNumeric" FontStyle="0" Frame.Typ="3" HAlign="haCenter" ParentFont="False" Text="[strtofloat(&#60;ADOQuery1.&#34;pajak_terhutang&#34;&#62;)+strtofloat(&#60;ADOQuery1.&#34;bunga&#34;&#62;)]"/>
+    </TfrxMasterData>
+  </TfrxDMPPage>
+</TfrxReport>

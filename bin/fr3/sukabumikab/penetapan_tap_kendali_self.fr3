@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Modal="False" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="42249.4466477778" ReportOptions.Description.Text="" ReportOptions.LastChange="42305.5644063889" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403550203546F7003670108446174617365747301010C2C00000020446174615365743D2241444F5175657279312220446174615365744E616D653D2241444F517565727931220000095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" Orientation="poLandscape" PaperWidth="419.099729331425" PaperHeight="292.364394514662" PaperSize="256" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxADOQuery Name="ADOQuery1" UserName="ADOQuery1" CloseDataSource="True" FieldAliases.Text="" SQL.Text="select * from penetapan_tap_kendali_self.csv" CommandTimeout="30" PropData="0A506172616D65746572730100"/>
+    <TfrxMasterData Name="MasterData1" Height="34" Left="0" Top="306" Width="1564.8" ColumnWidth="0" ColumnGap="0" DataSet="ADOQuery1" DataSetName="ADOQuery1" RowCount="0" Stretched="True">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="9.6" Top="0" Width="38.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[Line]"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="57.6" Top="0" Width="86.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;terimatgl&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="153.6" Top="0" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;sptno&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="220.8" Top="0" Width="48" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;typenm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="278.4" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="[ADOQuery1.&#34;npwpd&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="403.2" Top="0" Width="153.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="[ADOQuery1.&#34;customernm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="566.4" Top="0" Width="182.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;pajaknm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="758.4" Top="0" Width="172.8" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;masa&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="940.8" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[ADOQuery1.&#34;pajak_terhutang&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo26" Left="1065.6" Top="0" Width="86.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;tarif&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="1161.6" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[ADOQuery1.&#34;dasar&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo29" Left="1286.4" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[ADOQuery1.&#34;sspdtgl&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo30" Left="1411.2" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[ADOQuery1.&#34;bayar&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="68" Left="0" Top="153" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo13" Left="9.6" Top="0" Width="38.4" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NO"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="57.6" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="TANGGAL"/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="153.6" Top="34" Width="57.6" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="NOMOR"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="220.8" Top="34" Width="48" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="JENIS"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="278.4" Top="0" Width="115.2" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NPWPD"/>
+      <TfrxDMPMemoView Name="DMPMemo18" Left="566.4" Top="0" Width="182.4" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="JENIS PAJAK"/>
+      <TfrxDMPMemoView Name="DMPMemo19" Left="758.4" Top="0" Width="172.8" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="MASA PAJAK"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="1065.6" Top="0" Width="86.4" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="TARIF"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="1286.4" Top="0" Width="115.2" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="TANGGAL &#13;&#10;BAYAR"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="1411.2" Top="0" Width="115.2" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="JUMLAH &#13;&#10;BAYAR"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="57.6" Top="0" Width="211.2" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="KETETAPAN"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="403.2" Top="0" Width="153.6" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NAMA"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="1161.6" Top="0" Width="115.2" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DASAR"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="940.8" Top="0" Width="115.2" Height="51" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="PAJAK &#13;&#10;TERUTANG"/>
+    </TfrxPageHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="119" Left="0" Top="17" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo5" Left="9.6" Top="17" Width="1536" Height="85" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="DINAS PENDAPATAN PENGELOLAAN KEUANGAN DAN ASET DAERAH&#13;&#10;KABUPATEN SUKABUMI&#13;&#10;LAPORAN KENDALI SELF ASSESSMENT&#13;&#10;PERIODE [ADOQuery1.&#34;periode&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Height="17" Left="0" Top="629" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo3" Left="748.8" Top="0" Width="796.8" Height="17" FontStyle="0" ParentFont="False" Text="[Page]"/>
+    </TfrxPageFooter>
+    <TfrxGroupHeader Name="GroupHeader1" Height="34" Left="0" Top="255" Width="1564.8" Condition="ADOQuery1.&#34;usahanm&#34;">
+      <TfrxDMPMemoView Name="DMPMemo32" Left="9.6" Top="0" Width="1516.8" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="[Uppercase(&#60;ADOQuery1.&#34;usahanm&#34;&#62;)]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" Height="34" Left="0" Top="357" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo33" Left="9.6" Top="0" Width="1142.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="JUMLAH"/>
+      <TfrxDMPMemoView Name="DMPMemo34" Left="1161.6" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM(strtoint(&#60;ADOQuery1.&#34;dasar&#34;&#62;))]"/>
+      <TfrxDMPMemoView Name="DMPMemo35" Left="1286.4" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxDMPMemoView Name="DMPMemo36" Left="1411.2" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM(strtoint(&#60;ADOQuery1.&#34;bayar&#34;&#62;))]"/>
+    </TfrxGroupFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="187" Left="0" Top="425" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo31" Left="1152" Top="34" Width="355.2" Height="136" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;KEPALA BIDANG PAD NON PBB DAN BPHTB&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;TATANG PUJANTARA,SIP,MSi&#13;&#10;NIP. 196306151990121001"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="9.6" Top="0" Width="1142.4" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="JUMLAH TOTAL"/>
+      <TfrxDMPMemoView Name="DMPMemo37" Left="1161.6" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM(strtoint(&#60;ADOQuery1.&#34;dasar&#34;&#62;))]"/>
+      <TfrxDMPMemoView Name="DMPMemo38" Left="1286.4" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxDMPMemoView Name="DMPMemo39" Left="1411.2" Top="0" Width="115.2" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM(strtoint(&#60;ADOQuery1.&#34;bayar&#34;&#62;))]"/>
+    </TfrxReportSummary>
+  </TfrxDMPPage>
+</TfrxReport>

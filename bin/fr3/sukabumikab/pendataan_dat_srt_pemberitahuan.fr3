@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Modal="False" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="42249.4734646296" ReportOptions.Description.Text="" ReportOptions.LastChange="42307.6630676389" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403550203546F7003670108446174617365747301010C2C00000020446174615365743D2241444F5175657279312220446174615365744E616D653D2241444F517565727931220000095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" PaperWidth="215.899860564673" PaperHeight="355.335187179358" PaperSize="5" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxADOQuery Name="ADOQuery1" UserName="ADOQuery1" CloseDataSource="True" FieldAliases.Text="" SQL.Text="select * from pendataan_dat_srt_pemberitahuan.csv" CommandTimeout="30" PropData="0A506172616D65746572730100"/>
+    <TfrxPageHeader Name="PageHeader1" Height="136" Left="0" Top="17" Width="796.8"/>
+    <TfrxMasterData Name="MasterData1" Height="884" Left="0" Top="187" Width="796.8" ColumnWidth="0" ColumnGap="0" DataSet="ADOQuery1" DataSetName="ADOQuery1" FooterAfterEach="True" RowCount="0">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="17" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Nomor"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="0" Top="187" Width="787.2" Height="119" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Bersama ini disampaikan kepada Bapak/Ibu  bahwa berdasarkan Peraturan Daerah Kabupaten Sukabumi [IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=8,'Perda No. 16 Tahun 2010 tentang Pajak Air Tanah ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=4,'Perda No. 5 Tahun 2011 tentang Pajak Reklame ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=5,'Perda No. 6 Tahun 2011 tentang Pajak Penerangan Jalan ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=9,'Perda No. 8 Tahun 2011 tentang Pajak Sarang Burung Walet ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=2,'Perda No. 17 Tahun 2011 tentang Pajak Restoran ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=1,'Perda No. 18 Tahun 2011 tentang Pajak Hotel ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=3,'Perda No. 19 Tahun 2011 tentang Pajak Hiburan ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=11,'Perda No. 1 Tahun 2012 tentang Pajak Mineral bukan Logam dan Batuan ','')][IIF(&#60;ADOQuery1.&#34;usaha_id&#34;&#62;=7,'Perda No. 26 Tahun 2012 Pajak Parkir ','')]&#34;Apabila kewajiban mengisi SPTPD tidak dipenuhi, pajak yang terutang dihitung secara jabatan dan dikenakan sanksi administrasi berupa kenaikan sebesar 25% (dua puluh lima persen) dari pokok pajak ditambah sanksi administrasi berupa bunga sebesar 2% (dua persen)&#34;."/>
+      <TfrxDMPMemoView Name="DMPMemo42" Left="0" Top="34" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Sifat"/>
+      <TfrxDMPMemoView Name="DMPMemo43" Left="0" Top="51" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Lampiran"/>
+      <TfrxDMPMemoView Name="DMPMemo44" Left="0" Top="68" Width="76.8" Height="17" FontStyle="0" ParentFont="False" Text="Perihal"/>
+      <TfrxDMPMemoView Name="DMPMemo45" Left="76.8" Top="17" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo46" Left="76.8" Top="34" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo47" Left="76.8" Top="51" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo48" Left="76.8" Top="68" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo49" Left="96" Top="17" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text=""/>
+      <TfrxDMPMemoView Name="DMPMemo50" Left="96" Top="34" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="Segera"/>
+      <TfrxDMPMemoView Name="DMPMemo51" Left="96" Top="51" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="-"/>
+      <TfrxDMPMemoView Name="DMPMemo52" Left="96" Top="68" Width="316.8" Height="17" FontStyle="0" ParentFont="False" Text="Pemberitahuan Penyampaian SPTPD"/>
+      <TfrxDMPMemoView Name="DMPMemo53" Left="422.4" Top="17" Width="364.8" Height="51" FontStyle="0" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;Kepada Yth,&#13;&#10;Pengelola [ADOQuery1.&#34;usahanm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo55" Left="422.4" Top="68" Width="364.8" Height="17" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;customernm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo54" Left="422.4" Top="85" Width="364.8" Height="85" FontStyle="0" ParentFont="False" Text="di&#13;&#10;[ADOQuery1.&#34;alamat&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="0" Top="323" Width="787.2" Height="119" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="Oleh  karena itu  diharapkan  kesadaran dan  tanggung jawab  Bapak/Ibu sebagai Wajib Pajak untuk segera melaporkan SPTPD melalui website http://e-sptpd.sukabumikab.org atau costumer service loket pelayanan Pajak terpadu DPPKAD Kabupaten Sukabumi dan membayarnya ke Kas Daerah Kabupaten Sukabumi paling lambat 7 (tujuh) hari  setelah  surat ini  diterima. Jika tidak melaporkan akan  kami tetapkan perhitungan pajak secara jabatan."/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="422.4" Top="510" Width="364.8" Height="119" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="an. Plt. Kepala DPPKAD Kab. Sukabumi&#13;&#10;Kepala Bidang PAD Non PBB/BPHTB&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;TATANG PUJANTARA,SIP,MSi&#13;&#10;NIP. 19630615 199012 1 001"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="0" Top="663" Width="460.8" Height="51" FontStyle="0" ParentFont="False" Text="Tembusan :&#13;&#10;1. Yth. Bapak Bupati Sukabumi (sebagai laporan).&#13;&#10;2. Yth. Inspektur Kabupaten Sukabumi."/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="0" Top="442" Width="787.2" Height="17" FontStyle="0" HAlign="haBlock" ParentFont="False" Text="	Demikian atas perhatian dan kerjasamanya diucapkan terima kasih."/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="17" Left="0" Top="1292" Width="796.8">
+      <TfrxDMPMemoView Name="DMPMemo4" Left="0" Top="0" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="."/>
+    </TfrxPageFooter>
+    <TfrxFooter Name="Footer1" Height="170" Left="0" Top="1088" Width="796.8">
+      <TfrxDMPMemoView Name="DMPMemo16" Left="412.8" Top="51" Width="384" Height="102" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;Yang Menerima&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;(........................)"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="0" Top="0" Width="796.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="----------------------------------------------------------------------------------"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="0" Top="17" Width="796.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="TANDA TERIMA"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="0" Top="51" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="NAMA"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="0" Top="68" Width="96" Height="17" FontStyle="0" ParentFont="False" Text="ALAMAT"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="96" Top="68" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="96" Top="51" Width="19.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" Text=":"/>
+      <TfrxDMPMemoView Name="DMPMemo13" Left="115.2" Top="51" Width="297.6" Height="17" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;customernm&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="115.2" Top="68" Width="297.6" Height="17" FontStyle="0" ParentFont="False" Text="[ADOQuery1.&#34;alamat&#34;]"/>
+    </TfrxFooter>
+  </TfrxDMPPage>
+</TfrxReport>

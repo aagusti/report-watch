@@ -87,13 +87,13 @@ object frmFastReport: TfrmFastReport
     Left = 241
     Top = 0
     Width = 2
-    Height = 479
+    Height = 491
   end
   object Panel3: TPanel
     Left = 243
     Top = 0
-    Width = 541
-    Height = 479
+    Width = 549
+    Height = 491
     Align = alClient
     TabOrder = 1
   end
@@ -101,14 +101,14 @@ object frmFastReport: TfrmFastReport
     Left = 0
     Top = 0
     Width = 241
-    Height = 479
+    Height = 491
     Align = alLeft
     TabOrder = 0
     object Memo1: TMemo
       Left = 1
       Top = 161
       Width = 239
-      Height = 317
+      Height = 329
       Align = alClient
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -217,8 +217,8 @@ object frmFastReport: TfrmFastReport
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 479
-    Width = 784
+    Top = 491
+    Width = 792
     Height = 19
     Panels = <
       item

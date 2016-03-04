@@ -241,7 +241,8 @@ begin
     frxreport1.LoadFromFile(filename);
   end
   else
-  begin
+  begin      
+    frxReport1.Clear;
     frxreport1.LoadFromFile(fr3dir + cboKertas.Items[cboKertas.ItemIndex]);
   end;
 

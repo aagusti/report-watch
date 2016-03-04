@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Modal="False" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="42249.4466477778" ReportOptions.Description.Text="" ReportOptions.LastChange="42305.4849442593" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403550203546F7003670108446174617365747301010C2C00000020446174615365743D2241444F5175657279312220446174615365744E616D653D2241444F517565727931220000095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" Orientation="poLandscape" PaperWidth="419.099729331425" PaperHeight="292.364394514662" PaperSize="256" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxADOQuery Name="ADOQuery1" UserName="ADOQuery1" CloseDataSource="True" FieldAliases.Text="" SQL.Text="select * from penerimaan_trm_rekap.csv" CommandTimeout="30" PropData="0A506172616D65746572730100"/>
+    <TfrxMasterData Name="MasterData1" Height="136" Left="0" Top="221" Width="1564.8" ColumnWidth="0" ColumnGap="0" DataSet="ADOQuery1" DataSetName="ADOQuery1" RowCount="0" Stretched="True">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="9.6" Top="0" Width="38.4" Height="119" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[Line]"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="57.6" Top="0" Width="345.6" Height="119" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="[ADOQuery1.&#34;npwpd&#34;]/[&#60;ADOQuery1.&#34;nama&#34;&#62;]/[&#60;ADOQuery1.&#34;alamat&#34;&#62;]"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="412.8" Top="0" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="omset"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="480" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;des&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="576" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;jan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="672" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;feb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="768" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;mar&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="864" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;apr&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="960" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;mei&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo31" Left="1056" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;jun&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo33" Left="1152" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;jul&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo34" Left="1248" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;agt&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo35" Left="1344" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;sep&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo36" Left="1440" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;nov&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="480" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pdes&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo26" Left="576" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pjan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="672" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pfeb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo37" Left="768" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pmar&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo38" Left="864" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;papr&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo39" Left="960" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pmei&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo40" Left="1056" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pjun&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo41" Left="1152" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pjul&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo42" Left="1248" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pagt&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo43" Left="1344" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;psep&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo44" Left="1440" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;pnov&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo45" Left="480" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bdes&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo46" Left="576" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bjan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo47" Left="672" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bfeb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo48" Left="768" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bmar&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo49" Left="864" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bapr&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo50" Left="960" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bmei&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo51" Left="1056" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bjun&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo52" Left="1152" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bjul&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo53" Left="1248" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bagt&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo54" Left="1344" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bsep&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo55" Left="1440" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;bnov&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo56" Left="480" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;ddes&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo57" Left="576" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;djan&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo58" Left="672" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dfeb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo59" Left="768" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dmar&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo60" Left="864" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dapr&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo61" Left="960" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dmei&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo62" Left="1056" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;djun&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo63" Left="1152" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;djul&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo64" Left="1248" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dagt&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo65" Left="1344" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dsep&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo66" Left="1440" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[ADOQuery1.&#34;dnov&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo67" Left="412.8" Top="34" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="pajak"/>
+      <TfrxDMPMemoView Name="DMPMemo68" Left="412.8" Top="68" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="setoran"/>
+      <TfrxDMPMemoView Name="DMPMemo69" Left="412.8" Top="102" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="denda"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="34" Left="0" Top="153" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo13" Left="9.6" Top="0" Width="38.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NO"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="57.6" Top="0" Width="345.6" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NPWPD / NAMA WP / ALAMAT"/>
+      <TfrxDMPMemoView Name="DMPMemo19" Left="412.8" Top="0" Width="57.6" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="KET"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="480" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DESEMBER"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="576" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="JANUARI"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="672" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="FEBRUARI"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="768" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="MARET"/>
+      <TfrxDMPMemoView Name="DMPMemo18" Left="864" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="APRIL"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="960" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="MEI"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="1056" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="JUNI"/>
+      <TfrxDMPMemoView Name="DMPMemo12" Left="1152" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="JULI"/>
+      <TfrxDMPMemoView Name="DMPMemo29" Left="1248" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="AGUSTUS"/>
+      <TfrxDMPMemoView Name="DMPMemo30" Left="1344" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="SEPTEMBER"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="1440" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NOVEMBER"/>
+    </TfrxPageHeader>
+    <TfrxReportTitle Name="ReportTitle1" Height="119" Left="0" Top="17" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo5" Left="9.6" Top="17" Width="1536" Height="85" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="INAS PENDAPATAN PENGELOLAAN KEUANGAN DAN ASET DAERAH&#13;&#10;KABUPATEN SUKABUMI&#13;&#10;REKAPITULASI REALISASI PER WAJIB PAJAK&#13;&#10;TAHUN ANGGARAN 2015&#13;&#10;PAJAK [ADOQuery1.&#34;rekeningnm&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Height="17" Left="0" Top="748" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo3" Left="748.8" Top="0" Width="796.8" Height="17" FontStyle="0" ParentFont="False" Text="[Page]"/>
+    </TfrxPageFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="340" Left="0" Top="391" Width="1564.8">
+      <TfrxDMPMemoView Name="DMPMemo32" Left="1200" Top="204" Width="336" Height="119" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" HAlign="haCenter" ParentFont="False" Text="Palabuhanratu, [ADOQuery1.&#34;tglcetak&#34;]&#13;&#10;KEPALA BIDANG PAD NON PBB DAN BPHTB&#13;&#10;&#13;&#10;&#13;&#10;TATANG PUJANTARA,SIP,MSi&#13;&#10;NIP. 196306151990121001"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="9.6" Top="0" Width="393.6" Height="119" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="JUMLAH"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="412.8" Top="0" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="omset"/>
+      <TfrxDMPMemoView Name="DMPMemo70" Left="480" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;des&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo71" Left="576" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;jan&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo72" Left="672" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;feb&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo73" Left="768" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;mar&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo74" Left="864" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;apr&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo75" Left="960" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;mei&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo76" Left="1056" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;jun&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo77" Left="1152" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;jul&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo78" Left="1248" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;agt&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo79" Left="1344" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;sep&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo80" Left="1440" Top="0" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;nov&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo81" Left="480" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pdes&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo82" Left="576" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pjan&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo83" Left="672" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pfeb&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo84" Left="768" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pmar&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo85" Left="864" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;papr&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo86" Left="960" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pmei&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo87" Left="1056" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pjun&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo88" Left="1152" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pjul&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo89" Left="1248" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pagt&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo90" Left="1344" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;psep&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo91" Left="1440" Top="34" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;pnov&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo92" Left="480" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bdes&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo93" Left="576" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bjan&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo94" Left="672" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bfeb&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo95" Left="768" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bmar&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo96" Left="864" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bapr&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo97" Left="960" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bmei&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo98" Left="1056" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bjun&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo99" Left="1152" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bjul&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo100" Left="1248" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bagt&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo101" Left="1344" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bsep&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo102" Left="1440" Top="68" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;bnov&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo103" Left="480" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;ddes&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo104" Left="576" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;djan&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo105" Left="672" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dfeb&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo106" Left="768" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dmar&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo107" Left="864" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dapr&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo108" Left="960" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dmei&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo109" Left="1056" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;djun&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo110" Left="1152" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;djul&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo111" Left="1248" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dagt&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo112" Left="1344" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dsep&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo113" Left="1440" Top="102" Width="86.4" Height="17" FontStyle="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;ADOQuery1.&#34;dnov&#34;&#62;)]"/>
+      <TfrxDMPMemoView Name="DMPMemo114" Left="412.8" Top="34" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="pajak"/>
+      <TfrxDMPMemoView Name="DMPMemo115" Left="412.8" Top="68" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="setoran"/>
+      <TfrxDMPMemoView Name="DMPMemo116" Left="412.8" Top="102" Width="57.6" Height="17" DataSet="ADOQuery1" DataSetName="ADOQuery1" FontStyle="0" Frame.Typ="15" ParentFont="False" Text="denda"/>
+    </TfrxReportSummary>
+  </TfrxDMPPage>
+</TfrxReport>
