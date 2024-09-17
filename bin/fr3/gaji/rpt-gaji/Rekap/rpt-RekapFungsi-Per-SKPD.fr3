@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.0.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40134.4217028357" ReportOptions.Description.Text="" ReportOptions.LastChange="40134.4364353588" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674022803546F7003800008446174617365747301010C3600000020446174615365743D2271727952656B617046756E6773692220446174615365744E616D653D2271727952656B617046756E677369220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxADODatabase Name="ADODatabase1" DatabaseName="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=db_gaji;Data Source=(LOCAL);Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=TATANG;Use Encryption for Data=False;Tag with column collation when possible=False" LoginPrompt="False" Connected="True" PropData="05704C65667403BC000470546F700250"/>
+    <TfrxADOQuery Name="qryRekapFungsi" UserName="qryRekapFungsi" CloseDataSource="True" FieldAliases.Text="" SQL.Text="SELECT A.JBT_FUNGSIKD, B.JBT_FUNGSI, COUNT(A.JBT_FUNGSIKD)JML_FUNGSI&#13;&#10;FROM PEGAWAI A INNER JOIN TBLJBT_FUNGSI B ON A.JBT_FUNGSIKD=B.JBT_FUNGSIKD&#13;&#10;GROUP BY A.JBT_FUNGSIKD, B.JBT_FUNGSI&#13;&#10;ORDER BY A.JBT_FUNGSIKD" CommandTimeout="30" Database="ADODatabase1" PropData="05704C6566740358010470546F70025C0A506172616D65746572730100"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="41.57483" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo17" Left="0" Top="0" Width="321.26005" Height="34.01577" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="REKAP JABATAN FUNGSIONAL SELURUH SKPD&#13;&#10;KABUPATEN TANGERANG"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18.89765" Left="0" Top="162.51979" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="qryRekapFungsi" DataSetName="qryRekapFungsi" RowCount="0">
+      <TfrxMemoView Name="Memo3" ShiftMode="smDontShift" Left="0" Top="0" Width="71.81107" Height="18.89765" StretchMode="smMaxHeight" DataField="JBT_FUNGSIKD" DataSet="qryRekapFungsi" DataSetName="qryRekapFungsi" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[qryRekapFungsi.&#34;JBT_FUNGSIKD&#34;]"/>
+      <TfrxMemoView Name="Memo5" ShiftMode="smDontShift" Left="71.81107" Top="0" Width="472.44125" Height="18.89765" StretchMode="smMaxHeight" DataField="JBT_FUNGSI" DataSet="qryRekapFungsi" DataSetName="qryRekapFungsi" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[qryRekapFungsi.&#34;JBT_FUNGSI&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="544.25232" Top="0" Width="173.85838" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo6" ShiftMode="smDontShift" Left="544.25232" Top="0" Width="136.06308" Height="18.89765" StretchMode="smMaxHeight" DataField="JML_FUNGSI" DataSet="qryRekapFungsi" DataSetName="qryRekapFungsi" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[qryRekapFungsi.&#34;JML_FUNGSI&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="18.89765" Left="0" Top="283.46475" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="642.5201" Top="0" Width="75.5906" Height="18.89765" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxColumnHeader Name="ColumnHeader1" Height="18.89765" Left="0" Top="83.14966" Width="718.1107">
+      <TfrxMemoView Name="Memo4" Left="71.81107" Top="0" Width="472.44125" Height="18.89765" Color="-16777194" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="A"/>
+      <TfrxMemoView Name="Memo9" Left="544.25232" Top="0" Width="173.85838" Height="18.89765" Color="-16777194" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="JUMLAH"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="0" Width="71.81107" Height="18.89765" Color="-16777194" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="KODE"/>
+    </TfrxColumnHeader>
+    <TfrxReportSummary Name="ReportSummary1" Height="18.89765" Left="0" Top="241.88992" Width="718.1107">
+      <TfrxMemoView Name="Memo16" Left="544.25232" Top="0" Width="173.85838" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo8" Left="544.25232" Top="0" Width="136.06308" Height="18.89765" DisplayFormat.DecimalSeparator="." Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[SUM(&#60;qryRekapFungsi.&#34;JML_FUNGSI&#34;&#62;,MasterData1)]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>
