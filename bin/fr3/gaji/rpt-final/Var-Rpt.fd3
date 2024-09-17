@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variables>
+  <item Name=" Default_Setting"/>
+  <item Name="LaporanMain" Value="'1'"/>
+  <item Name="TahunAnggaran" Value="'2009'"/>
+  <item Name="NamaWilayah" Value="'KABUPATEN PURBALINGGA'"/>
+  <item Name="IDSKPD" Value="'2'"/>
+  <item Name="UnitKd" Value="1.01.01"/>
+</variables>

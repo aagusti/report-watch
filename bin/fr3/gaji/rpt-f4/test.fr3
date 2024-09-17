@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="3.22" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40822,6563000926" ReportOptions.Description.Text="" ReportOptions.LastChange="40822,6596970833" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403C80203546F7002380844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDMPPage Name="Page1" PaperWidth="215,899860564673" PaperHeight="355,335187179358" PaperSize="5" LeftMargin="2,53999835958439" RightMargin="2,53999835958439" TopMargin="4,49791376176403" BottomMargin="4,49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxReportTitle Name="ReportTitle1" Height="1292" Left="0" Top="17" Width="796,8">
+      <TfrxDMPMemoView Name="DMPMemo1" Left="0" Top="0" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="0" Top="170" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="0" Top="340" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="0" Top="510" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="0" Top="697" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="0" Top="867" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="0" Top="1037" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="0" Top="1207" Width="19,2" Height="153" FontStyle="0" Frame.Typ="8" ParentFont="False" Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6&#13;&#10;7&#13;&#10;8&#13;&#10;9"/>
+    </TfrxReportTitle>
+  </TfrxDMPPage>
+</TfrxReport>
